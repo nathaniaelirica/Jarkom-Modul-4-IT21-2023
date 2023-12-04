@@ -46,7 +46,7 @@ Dari hasil di atas, dapat dilihat bahwa routing telah berhasil dilakukan karena 
 ## CIDR
 ### Langkah 1 
 
-![rute](https://i.ibb.co/LhhhKf8/rute-modul-4.png)
+![topologi](https://github.com/nathaniaelirica/Jarkom-Modul-4-IT21-2023/assets/67095933/e3e1be19-55c8-4e86-b110-1cde668f3583)
 
 ### Langkah 2
 
