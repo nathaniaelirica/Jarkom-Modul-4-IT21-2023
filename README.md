@@ -83,3 +83,15 @@ Dari hasil di atas, dapat dilihat bahwa routing telah berhasil dilakukan karena 
 ### Langkah 9
 
 ![rute](https://i.ibb.co/njqsHFf/image.png)
+
+### Hasil Tabel Gabungan 
+
+![rute](https://i.ibb.co/DCjVKJN/image.png) 
+
+### Hasil Tabel Gabungan 
+
+![rute](https://i.ibb.co/DCjVKJN/image.png) 
+
+### Pembagian IP
+
+![rute](https://i.ibb.co/vHRZSLC/image.png) 
