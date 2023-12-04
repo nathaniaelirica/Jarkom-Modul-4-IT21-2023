@@ -44,3 +44,38 @@ Setelah routing telah dilakukan di tiap router, dapat dilakukan testing dengan m
 Dari hasil di atas, dapat dilihat bahwa routing telah berhasil dilakukan karena seluruh client dapat melakukan `ping` ke router Aura.
 
 ## CIDR
+### Langkah 1 
+
+![rute](https://i.ibb.co/LhhhKf8/rute-modul-4.png)
+
+### Langkah 2
+
+![rute](https://i.ibb.co/m9BjVf6/image.png)
+
+### Langkah 3
+
+![rute](https://i.ibb.co/0Y5vwdy/image.png)
+
+### Langkah 4
+
+![rute](https://i.ibb.co/vBtW8t0/image.png)
+
+### Langkah 5
+
+![rute](https://i.ibb.co/4PhMb0T/image.pn)
+
+### Langkah 6
+
+![rute](https://i.ibb.co/zPWGCdX/image.png)
+
+### Langkah 7
+
+![rute](https://i.ibb.co/0DkLjqF/image.png)
+
+### Langkah 7
+
+![rute](https://i.ibb.co/0DkLjqF/image.png)
+
+### Langkah 8
+
+![rute](https://i.ibb.co/pJfYNYm/image.png)
