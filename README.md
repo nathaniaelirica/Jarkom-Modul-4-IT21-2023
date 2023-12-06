@@ -62,7 +62,7 @@ Dari hasil di atas, dapat dilihat bahwa routing telah berhasil dilakukan karena 
 
 ### Langkah 5
 
-![rute](https://i.ibb.co/4PhMb0T/image.pn)
+![rute](https://i.ibb.co/4PhMb0T/image.png)
 
 ### Langkah 6
 
@@ -84,14 +84,295 @@ Dari hasil di atas, dapat dilihat bahwa routing telah berhasil dilakukan karena 
 
 ![rute](https://i.ibb.co/njqsHFf/image.png)
 
-### Hasil Tabel Gabungan 
+### Hasil Tabel Gabungan A
 
-![rute](https://i.ibb.co/DCjVKJN/image.png) 
+![rute](https://i.ibb.co/CM6qJBL/image.png) 
 
-### Hasil Tabel Gabungan 
+### Hasil Tabel Gabungan B
 
-![rute](https://i.ibb.co/DCjVKJN/image.png) 
+![rute](https://i.ibb.co/jb2yPDK/image.png) 
+
+### Hasil Tabel Gabungan C
+
+![rute](https://i.ibb.co/NVLnZNS/image.png) 
+
+### Hasil Tabel Gabungan D
+
+![rute](https://i.ibb.co/jh51Zn0/image.png) 
+
+### Hasil Tabel Gabungan E
+
+![rute](https://i.ibb.co/vQmPRhq/image.png) 
+
+### Hasil Tabel Gabungan F
+
+![rute](https://i.ibb.co/WHCb4GP/image.png) 
+
+### Hasil Tabel Gabungan G
+
+![rute](https://i.ibb.co/kS1bsht/image.png) 
+
+### Hasil Tabel Gabungan H
+
+![rute](https://i.ibb.co/kS1bsht/image.png) 
+
+### Hasil Tabel Gabungan I
+
+![rute](https://i.ibb.co/XXbs4sQ/image.png) 
 
 ### Pembagian IP
 
-![rute](https://i.ibb.co/vHRZSLC/image.png) 
+![rute](https://i.ibb.co/DMyzHnp/image.png) 
+
+### Konfigurasi di topologi
+#### Aura
+```
+auto eth0
+iface eth0 inet dhcp
+
+#Aura-Denken
+auto eth2
+iface eth2 inet static
+	address 10.75.0.129
+	netmask 255.255.255.252
+
+#Aura-Eisen
+auto eth1
+iface eth1 inet static
+	address 10.76.128.1
+	netmask 255.255.255.252
+
+#Aura-Frieren
+auto eth3
+iface eth3 inet static
+	address 10.74.128.1
+	netmask 255.255.255.252
+ ```
+
+#### Aura
+```
+auto eth0
+iface eth0 inet dhcp
+
+#Aura-Denken
+auto eth2
+iface eth2 inet static
+	address 10.75.0.129
+	netmask 255.255.255.252
+
+#Aura-Eisen
+auto eth1
+iface eth1 inet static
+	address 10.76.128.1
+	netmask 255.255.255.252
+
+#Aura-Frieren
+auto eth3
+iface eth3 inet static
+	address 10.74.128.1
+	netmask 255.255.255.252
+ ```
+#### Aura
+```
+auto eth0
+iface eth0 inet dhcp
+
+#Aura-Denken
+auto eth2
+iface eth2 inet static
+	address 10.75.0.129
+	netmask 255.255.255.252
+
+#Aura-Eisen
+auto eth1
+iface eth1 inet static
+	address 10.76.128.1
+	netmask 255.255.255.252
+
+#Aura-Frieren
+auto eth3
+iface eth3 inet static
+	address 10.74.128.1
+	netmask 255.255.255.252
+ ```
+
+#### Denken
+
+```
+#Denken-Aura
+auto eth0
+iface eth0 inet static
+	address 10.75.0.130
+	netmask 255.255.255.252
+
+#Denken-Switch-RoyalCapital-Switch-WileRegion
+auto eth1
+iface eth1 inet static
+	address 10.75.0.1
+	netmask 255.255.255.128
+ ```
+
+#### Royal Capital
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.75.0.2
+	netmask 255.255.255.128
+    gateway 10.75.0.1
+ ```
+#### Wille Region
+
+```
+#WilleRegion
+auto eth0
+iface eth0 inet static
+	address 10.75.0.3
+	netmask 255.255.255.128
+    gateway 10.75.0.1
+ ```
+
+#### Eisen
+
+```
+#A11 Aura-Eisen
+auto eth0
+iface eth0 inet static
+	address 10.76.128.1
+	netmask 255.255.255.252
+
+#Eisen-Linie
+auto eth1
+iface eth1 inet static
+	address 10.74.80.1
+	netmask 255.255.255.252
+
+#Eisen-Switch0-Stark
+auto eth2
+iface eth2 inet static
+	address 10.76.16.1
+	netmask 255.255.255.252
+
+#Eisen-Switch1-Richter-Switch1-Revolte
+auto eth3
+iface eth3 inet static
+	address 10.76.32.1
+	netmask 255.255.255.248
+
+#Eisen-Lugner
+auto eth4
+iface eth4 inet static
+	address 10.76.8.1
+	netmask 255.255.255.252
+ ```
+#### Stark
+
+```
+#Stark 
+auto eth0
+iface eth0 inet static
+	address 10.76.16.1
+	netmask 255.255.255.252
+ ```
+#### Lugner 
+
+```
+#Eisien-Lugner
+auto eth0
+iface eth0 inet static
+	address 10.76.8.1
+	netmask 255.255.255.252
+
+#Lugner-Switch10-TurkRegion
+auto eth1
+iface eth1 inet static
+	address 10.76.0.1
+	netmask 255.255.252.0
+
+#A16 Lugner-Switch9-GrobeForest
+auto eth2
+iface eth2 inet static
+	address 10.76.4.1
+	netmask 255.255.255.0
+ ```
+#### Turk Region
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.76.0.2
+	netmask 255.255.252.0
+    gateway 10.76.0.1
+ ```
+
+#### Grobe Forest
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.76.4.2
+	netmask 255.255.255.0
+    gateway 10.76.4.1
+ ```
+#### Ritcher 
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.76.32.2
+	netmask 255.255.255.248
+ ```
+#### Revolte
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.76.32.2
+	netmask 255.255.255.248
+ ```
+#### Frieren 
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.76.32.2
+	netmask 255.255.255.248
+ ```
+#### Frieren 
+
+```
+#Frieren-Aura
+auto eth0
+iface eth0 inet static
+	address 10.74.128.1
+	netmask 255.255.255.252
+
+#Flamme-Frieren
+auto eth1
+iface eth1 inet static
+	address 10.74.32.1
+	netmask 255.255.255.252
+
+#Frieren-Switch3-LakeKorridor
+auto eth2
+iface eth2 inet static
+	address 10.74.64.1
+	netmask 255.255.255.224
+ ```
+
+#### LaubHills
+```
+auto eth0
+iface eth0 inet static
+	address 10.74.0.1
+	netmask 255.255.255.0
+```
+
+#### Routing
+#### Eisen
+```route add -net 10.76.0.0 netmask 255.255.252.0 gw 10.76.0.1```
+#### Frieren
+```route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.74.128.1```
+#### Lugner
+```route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.76.8.1```
+
