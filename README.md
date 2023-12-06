@@ -43,6 +43,10 @@ Setelah routing telah dilakukan di tiap router, dapat dilakukan testing dengan m
 
 Dari hasil di atas, dapat dilihat bahwa routing telah berhasil dilakukan karena seluruh client dapat melakukan `ping` ke router Aura.
 
+Selain itu, antar client yang berjauhan juga bisa melakukan `ping` satu sama lain. Berikut merupakan hasil testingnya:
+
+![testing_vlsm_client](https://i.ibb.co/ZHLzb9w/Screenshot-2023-12-06-202420.png)
+
 ## CIDR
 ### Langkah 1 
 
