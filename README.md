@@ -376,3 +376,7 @@ iface eth0 inet static
 #### Lugner
 ```route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.76.8.1```
 
+### Hasil Ping
+
+![rute](https://i.ibb.co/fnZDxXc/image.png) 
+
